@@ -62,10 +62,10 @@
 
         pmacros_layer {
             bindings = <
-&trans  &trans  &trans    &trans    &trans        &trans          &kp N7  &kp N8  &kp N9  &trans  &trans  &trans
-&trans  &trans  &trans    &trans    &kp LS(LPAR)  &kp LS(RPAR)    &kp N4  &kp N5  &kp N6  &trans  &trans  &trans
-&trans  &trans  &kp LBKT  &kp RBKT  &kp LS(LBRC)  &kp LS(RBRC)    &kp N1  &kp N2  &kp N3  &trans  &trans  &trans
-                          &trans    &trans        &trans          &trans  &kp N0  &trans
+&trans  &trans  &trans    &trans    &trans        &trans          &trans  &kp N7  &kp N8  &kp N9  &kp MINUS  &trans
+&trans  &trans  &trans    &trans    &kp LS(LPAR)  &kp LS(RPAR)    &trans  &kp N4  &kp N5  &kp N6  &kp PLUS   &trans
+&trans  &trans  &kp LBKT  &kp RBKT  &kp LS(LBRC)  &kp LS(RBRC)    &kp N0  &kp N1  &kp N2  &kp N3  &trans     &trans
+                          &trans    &trans        &trans          &trans  &trans  &trans
             >;
         };
 

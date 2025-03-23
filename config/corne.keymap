@@ -24,7 +24,7 @@
 &caps_word      &kp Q           &kp W      &kp E      &kp R        &kp T            &kp Y          &kp U        &kp I      &kp O    &kp P               &kp BACKSLASH
 &kp LEFT_SHIFT  &kp A           &kp S      &kp D      &kp F        &kp G            &kp H          &kp J        &kp K      &kp L    &kp SEMI            &mt RIGHT_SHIFT SQT
 &kp LEFT_GUI    &mt LEFT_ALT Z  &mt DEL X  &kp C      &kp V        &kp B            &kp N          &kp M        &kp COMMA  &kp DOT  &mt RIGHT_ALT FSLH  &mt RIGHT_GUI RCTRL
-                                           &kp ENTER  &lt 1 ENTER  &mt LCTRL TAB    &kp BACKSPACE  &lt 2 SPACE  &kp SPACE
+                                           &kp ENTER  &lt 1 ENTER  &mt LCTRL TAB    &kp BACKSPACE  &lt 2 SPACE  &mo 3
             >;
         };
 
@@ -60,7 +60,14 @@
             >;
         };
 
-        program_keys { status = "reserved"; };
+        pmacros_layer {
+            bindings = <
+&trans  &trans  &trans    &trans    &trans        &trans          &kp N7  &kp N8  &kp N9  &trans  &trans  &trans
+&trans  &trans  &trans    &trans    &kp LS(LPAR)  &kp LS(RPAR)    &kp N4  &kp N5  &kp N6  &trans  &trans  &trans
+&trans  &trans  &kp LBKT  &kp RBKT  &kp LS(LBRC)  &kp LS(RBRC)    &kp N1  &kp N2  &kp N3  &trans  &trans  &trans
+                          &trans    &trans        &trans          &trans  &kp N0  &trans
+            >;
+        };
 
         extra_2 { status = "reserved"; };
 
